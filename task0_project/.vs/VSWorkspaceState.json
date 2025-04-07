@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LayeredArchitecture",
+    "\\LayeredArchitectureTest",
+    "\\LayeredArchitecture\\bin",
+    "\\LayeredArchitecture\\Data",
+    "\\LayeredArchitecture\\Logic",
+    "\\LayeredArchitecture\\obj"
+  ],
+  "SelectedNode": "\\LayeredArchitecture\\LayeredArchitecture.csproj",
+  "PreviewInSolutionExplorer": false
+}
