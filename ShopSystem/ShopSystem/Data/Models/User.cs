@@ -1,18 +1,20 @@
 ﻿namespace ShopSystem.Data.Models
 {
-    public enum UserRole
-    {
-        Customer,
-        Employee
-    }
-
-    public class User
+    public abstract class User
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public UserRole Role { get; set; }
 
-        public bool CanManageCatalog() => Role == UserRole.Employee;
-        public bool CanPurchase() => Role == UserRole.Customer;
+        public abstract bool CanManageCatalog();
+    }
+
+    public class Customer : User
+    {
+        public override bool CanManageCatalog() => false;
+    }
+
+    public class Employee : User
+    {
+        public override bool CanManageCatalog() => true;
     }
 }

@@ -12,7 +12,7 @@ namespace ShopSystem.Tests.Repositories
         public void AddUser_ShouldAddUser()
         {
             var repo = new InMemoryRepository();
-            var user = new User { Id = 1, Name = "TestUser" };
+            var user = new Customer { Id = 1, Name = "TestUser" };
 
             repo.AddUser(user);
             Assert.AreEqual(1, repo.GetUsers().Count());
@@ -26,7 +26,7 @@ namespace ShopSystem.Tests.Repositories
 
             var item = repo.GetCatalogItem(1);
             Assert.IsNotNull(item);
-            Assert.AreEqual("Certain item 1", item.Name);
+            Assert.AreEqual("Item A", item.Name);
         }
     }
 }

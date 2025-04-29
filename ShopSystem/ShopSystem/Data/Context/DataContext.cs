@@ -2,7 +2,7 @@
 
 namespace ShopSystem.Data.Context
 {
-    public class DataContext
+    public abstract class DataContext
     {
         public List<User> Users { get; set; } = new();
         public Dictionary<int, CatalogItem> Catalog { get; set; } = new();
