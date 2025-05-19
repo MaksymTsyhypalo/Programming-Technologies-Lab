@@ -1,12 +1,15 @@
-﻿using ShopSystem.Data.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ShopSystem.Data.Models;
 
 namespace ShopSystem.Data.Context
 {
-    public abstract class DataContext
+    public class DataContext : DbContext
     {
-        public List<User> Users { get; set; } = new();
-        public Dictionary<int, CatalogItem> Catalog { get; set; } = new();
-        public List<State> States { get; set; } = new();
-        public List<Event> Events { get; set; } = new();
+        public DataContext(DbContextOptions<DataContext> options) : base(options) { }
+
+        public DbSet<User> Users { get; set; }
+        public DbSet<CatalogItem> Catalog { get; set; }
+        public DbSet<State> States { get; set; }
+        public DbSet<Event> Events { get; set; }
     }
 }

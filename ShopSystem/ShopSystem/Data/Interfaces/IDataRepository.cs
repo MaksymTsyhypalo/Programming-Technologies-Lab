@@ -1,17 +1,20 @@
-﻿using System.Collections.Generic;
-using ShopSystem.Data.Models;
-
-namespace ShopSystem.Data.Interfaces
+﻿namespace ShopSystem.Data.Interfaces
 {
+    using Models;
+    using System.Collections.Generic;
+
     public interface IDataRepository
     {
         IEnumerable<User> GetUsers();
         void AddUser(User user);
 
+        IEnumerable<Event> GetEvents();
         void RegisterEvent(Event e);
-        State GetCurrentState();
-        CatalogItem GetCatalogItem(int id);
 
-        Dictionary<int, CatalogItem> Catalog { get; }
+        IEnumerable<State> GetStates();
+        State GetCurrentState();
+
+        CatalogItem GetCatalogItem(int id);
+        IEnumerable<CatalogItem> GetCatalog();
     }
 }

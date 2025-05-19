@@ -1,4 +1,4 @@
-﻿
+﻿using System.Collections.Generic;
 
 namespace ShopSystem.Data.Models
 {
@@ -7,14 +7,13 @@ namespace ShopSystem.Data.Models
         public int Id { get; set; }
         public List<CatalogItem> Inventory { get; set; } = new();
     }
+
     public class ConcreteState : State
     {
-        public ConcreteState(int id, List<CatalogItem> inventory)
+        public ConcreteState(int id, List<CatalogItem> items)
         {
             Id = id;
-            Inventory = inventory;
+            Inventory = items;
         }
-
-        public ConcreteState() : this(0, new List<CatalogItem>()) { }
     }
 }

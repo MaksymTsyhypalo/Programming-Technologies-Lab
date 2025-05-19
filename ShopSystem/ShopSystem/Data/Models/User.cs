@@ -4,17 +4,9 @@
     {
         public int Id { get; set; }
         public string Name { get; set; }
-
-        public abstract bool CanManageCatalog();
     }
 
-    public class Customer : User
-    {
-        public override bool CanManageCatalog() => false;
-    }
+    public class Customer : User { }
 
-    public class Employee : User
-    {
-        public override bool CanManageCatalog() => true;
-    }
+    public class Employee : User { }
 }
