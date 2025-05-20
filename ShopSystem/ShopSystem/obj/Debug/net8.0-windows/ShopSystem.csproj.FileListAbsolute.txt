@@ -1,0 +1,10 @@
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\ShopSystem.csproj.AssemblyReference.cache
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\Presentation\Views\ShopView.baml
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\Presentation\Views\ShopView.g.cs
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\ShopSystem_MarkupCompile.cache
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\ShopSystem.g.resources
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\ShopSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\ShopSystem.AssemblyInfoInputs.cache
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\ShopSystem.AssemblyInfo.cs
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\ShopSystem.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0-windows\ShopSystem.sourcelink.json

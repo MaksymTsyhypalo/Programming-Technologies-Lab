@@ -7,7 +7,9 @@ using ShopSystem.Data.Interfaces;
 using ShopSystem.Data.LinqSql;
 using ShopSystem.Logic;
 using ShopSystem.Logic.Interfaces;
+using ShopSystem.Presentation.ViewModels;
 using System.IO;
+
 
 class Program
 {
@@ -21,18 +23,35 @@ class Program
             })
             .ConfigureServices((context, services) =>
             {
+                // Configure database context
                 services.AddDbContext<DataContext>(options =>
-                    options.UseSqlServer(context.Configuration.GetConnectionString("DefaultConnection")));
+                    options.UseSqlServer(
+                        context.Configuration.GetConnectionString("DefaultConnection"),
+                        sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
+                // Register application services
                 services.AddScoped<IDataRepository, SqlDataRepository>();
                 services.AddScoped<IShopService, ShopService>();
 
-                // Add other services or ViewModels here if needed
+                // Register ViewModels if needed
+                services.AddTransient<ShopViewModel>();
             })
             .Build();
 
-        // Example usage
-        var service = host.Services.GetRequiredService<IShopService>();
-        // Do something, like service.RegisterUser(...)
+        // Run your application
+        using (var scope = host.Services.CreateScope())
+        {
+            var services = scope.ServiceProvider;
+            try
+            {
+                var service = services.GetRequiredService<IShopService>();
+                // Your application logic here
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
     }
 }
