@@ -23,33 +23,26 @@ class Program
             })
             .ConfigureServices((context, services) =>
             {
-                // Configure database context
                 services.AddDbContext<DataContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("DefaultConnection"),
                         sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
-                // Register application services
                 services.AddScoped<IDataRepository, SqlDataRepository>();
                 services.AddScoped<IShopService, ShopService>();
 
-                // Register ViewModels if needed
                 services.AddTransient<ShopViewModel>();
             })
             .Build();
-
-        // Run your application
         using (var scope = host.Services.CreateScope())
         {
             var services = scope.ServiceProvider;
             try
             {
                 var service = services.GetRequiredService<IShopService>();
-                // Your application logic here
             }
             catch (Exception ex)
             {
-                // Handle exceptions
                 Console.WriteLine($"An error occurred: {ex.Message}");
             }
         }
