@@ -1,0 +1,6 @@
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopTest\obj\Debug\net8.0\ShopTest.csproj.AssemblyReference.cache
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopTest\obj\Debug\net8.0\ShopTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopTest\obj\Debug\net8.0\ShopTest.AssemblyInfoInputs.cache
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopTest\obj\Debug\net8.0\ShopTest.AssemblyInfo.cs
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopTest\obj\Debug\net8.0\ShopTest.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopTest\obj\Debug\net8.0\ShopTest.sourcelink.json
