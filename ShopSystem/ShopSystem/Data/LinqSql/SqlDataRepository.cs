@@ -16,8 +16,24 @@ namespace ShopSystem.Data.LinqSql
             _context = context;
         }
 
-        // User operations
+        public void OpenConnection()
+        {
+            if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Open)
+                _context.Database.OpenConnection();
+        }
+
+        public void CloseConnection()
+        {
+            if (_context.Database.GetDbConnection().State != System.Data.ConnectionState.Closed)
+                _context.Database.CloseConnection();
+        }
+
         public IEnumerable<User> GetUsers() => _context.Users.ToList();
+
+        public IEnumerable<User> GetUsersByName(string name)
+        {
+            return _context.Users.Where(u => u.Name == name).ToList();
+        }
 
         public void AddUser(User user)
         {
@@ -27,8 +43,14 @@ namespace ShopSystem.Data.LinqSql
 
         public void UpdateUser(User user)
         {
-            _context.Users.Update(user);
-            _context.SaveChanges();
+            var existing = (from u in _context.Users
+                            where u.Id == user.Id
+                            select u).FirstOrDefault();
+            if (existing != null)
+            {
+                _context.Entry(existing).CurrentValues.SetValues(user);
+                _context.SaveChanges();
+            }
         }
 
         public void DeleteUser(int userId)
@@ -41,10 +63,12 @@ namespace ShopSystem.Data.LinqSql
             }
         }
 
-        // Event operations
-        public IEnumerable<Event> GetEvents() => _context.Events
-            .Include(e => e.TriggeredBy)
-            .ToList();
+        public IEnumerable<Event> GetEvents()
+        {
+            var query = from e in _context.Events.Include(e => e.TriggeredBy)
+                        select e;
+            return query.ToList();
+        }
 
         public void RegisterEvent(Event e)
         {
@@ -54,7 +78,9 @@ namespace ShopSystem.Data.LinqSql
 
         public void RemoveEvent(int eventId)
         {
-            var eventToRemove = _context.Events.Find(eventId);
+            var eventToRemove = (from e in _context.Events
+                                 where e.Id == eventId
+                                 select e).FirstOrDefault();
             if (eventToRemove != null)
             {
                 _context.Events.Remove(eventToRemove);
@@ -62,15 +88,17 @@ namespace ShopSystem.Data.LinqSql
             }
         }
 
-        // State operations
         public IEnumerable<State> GetStates() => _context.States
             .Include(s => s.Inventory)
             .ToList();
 
-        public State GetCurrentState() => _context.States
-            .Include(s => s.Inventory)
-            .OrderByDescending(s => s.Id)
-            .FirstOrDefault();
+        public State GetCurrentState()
+        {
+            var query = from s in _context.States.Include(s => s.Inventory)
+                        orderby s.Id descending
+                        select s;
+            return query.FirstOrDefault();
+        }
 
         public void UpdateState(State state)
         {
@@ -78,16 +106,26 @@ namespace ShopSystem.Data.LinqSql
             _context.SaveChanges();
         }
 
-        // Catalog operations
-        public CatalogItem GetCatalogItem(int id) => _context.Catalog
-            .FirstOrDefault(c => c.Id == id);
+        public CatalogItem GetCatalogItem(int id)
+        {
+            var query = from c in _context.Catalog
+                        where c.Id == id
+                        select c;
+            return query.FirstOrDefault();
+        }
 
         public IEnumerable<CatalogItem> GetCatalog() => _context.Catalog.ToList();
 
         public void AddCatalogItem(CatalogItem item)
         {
-            _context.Catalog.Add(item);
-            _context.SaveChanges();
+            var exists = (from c in _context.Catalog
+                          where c.Id == item.Id
+                          select c).Any();
+            if (!exists)
+            {
+                _context.Catalog.Add(item);
+                _context.SaveChanges();
+            }
         }
 
         public void UpdateCatalogItem(CatalogItem item)
@@ -98,7 +136,9 @@ namespace ShopSystem.Data.LinqSql
 
         public void RemoveCatalogItem(int itemId)
         {
-            var item = _context.Catalog.Find(itemId);
+            var item = (from c in _context.Catalog
+                        where c.Id == itemId
+                        select c).FirstOrDefault();
             if (item != null)
             {
                 _context.Catalog.Remove(item);
