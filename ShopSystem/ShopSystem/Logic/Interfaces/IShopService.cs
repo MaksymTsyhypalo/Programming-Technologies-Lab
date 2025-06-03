@@ -1,4 +1,5 @@
-﻿using ShopSystem.Data.Models;
+﻿// ShopSystem/Logic/Interfaces/IShopService.cs
+using ShopSystem.Data.Models;
 using System.Collections.Generic;
 
 namespace ShopSystem.Logic.Interfaces
@@ -27,11 +28,15 @@ namespace ShopSystem.Logic.Interfaces
         // State operations
         IEnumerable<State> GetAllStates();
         State GetCurrentState();
-        void UpdateState(State state);
+        void InitializeShopState(); // New method to ensure an initial state exists
+        void UpdateState(State state); // This method should likely be internal to the service
+                                       // as state management is a business logic concern.
+                                       // For this exercise, keeping it public as per interface.
 
         // Combined operations
-        IEnumerable<CatalogItem> GetInventory();
-        void ProcessPurchase(int userId, int itemId);
-        void ProcessReturn(int userId, int itemId);
+        Dictionary<CatalogItem, int> GetInventory(); // Change return type to show quantity
+        void ProcessPurchase(int userId, int itemId, int quantity); // Add quantity
+        void ProcessReturn(int userId, int itemId, int quantity);   // Add quantity
+        void ProcessDestruction(int userId, int itemId, int quantity); // New: for DestructionEvent
     }
 }

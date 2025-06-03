@@ -24,6 +24,7 @@ namespace ShopSystem.Data.Interfaces
         // States
         IQueryable<State> GetStates();
         State GetCurrentState();
+        void AddState(State state); // Added for initial state creation
         void UpdateState(State state);
 
         // Catalog

@@ -4,3 +4,9 @@ C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technol
 C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.AssemblyInfo.cs
 C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.csproj.CoreCompileInputs.cache
 C:\Users\Mateusz\Desktop\_PROGRAMING_TECHNOLOGIES\repository\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.sourcelink.json
+D:\Max_New\4_sem\ProgrammingTechnologies\Repo\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.csproj.AssemblyReference.cache
+D:\Max_New\4_sem\ProgrammingTechnologies\Repo\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Max_New\4_sem\ProgrammingTechnologies\Repo\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.AssemblyInfoInputs.cache
+D:\Max_New\4_sem\ProgrammingTechnologies\Repo\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.AssemblyInfo.cs
+D:\Max_New\4_sem\ProgrammingTechnologies\Repo\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.csproj.CoreCompileInputs.cache
+D:\Max_New\4_sem\ProgrammingTechnologies\Repo\Programming-Technologies-Lab\ShopSystem\ShopSystem\obj\Debug\net8.0\ShopSystem.sourcelink.json

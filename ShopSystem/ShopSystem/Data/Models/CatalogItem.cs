@@ -1,6 +1,4 @@
-﻿
-using ShopSystem.Data.Models;
-
+﻿// ShopSystem/Data/Models/CatalogItem.cs (No changes, but ensure it's virtual for lazy loading)
 namespace ShopSystem.Data.Models
 {
     public abstract class CatalogItem
@@ -9,8 +7,6 @@ namespace ShopSystem.Data.Models
         public string Name { get; set; }
         public decimal Price { get; set; }
     }
-}
-public class ConcreteCatalogItem : CatalogItem
-{
 
+    public class ConcreteCatalogItem : CatalogItem { }
 }
