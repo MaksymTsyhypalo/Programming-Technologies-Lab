@@ -1,26 +1,35 @@
-﻿using ShopSystem.Data.Models;
+﻿// ShopSystem/Data/Interfaces/IDataRepository.cs
+using ShopSystem.Data.Models;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ShopSystem.Data.Interfaces
 {
     public interface IDataRepository
     {
-        
-        IEnumerable<User> GetUsers();
+        // Users
+        IQueryable<User> GetUsers();
+        IQueryable<User> GetEmployees();
+        IQueryable<User> GetCustomers();
         void AddUser(User user);
         void UpdateUser(User user);
         void DeleteUser(int userId);
 
-        IEnumerable<Event> GetEvents();
+        // Events
+        IQueryable<Event> GetEvents();
+        IQueryable<Event> GetRecentEvents(int days = 7);
         void RegisterEvent(Event e);
         void RemoveEvent(int eventId);
 
-        IEnumerable<State> GetStates();
+        // States
+        IQueryable<State> GetStates();
         State GetCurrentState();
         void UpdateState(State state);
 
+        // Catalog
+        IQueryable<CatalogItem> GetCatalog();
+        IQueryable<CatalogItem> GetAffordableItems(decimal maxPrice);
         CatalogItem GetCatalogItem(int id);
-        IEnumerable<CatalogItem> GetCatalog();
         void AddCatalogItem(CatalogItem item);
         void UpdateCatalogItem(CatalogItem item);
         void RemoveCatalogItem(int itemId);

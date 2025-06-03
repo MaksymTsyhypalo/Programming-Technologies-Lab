@@ -1,38 +1,26 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "D:\\Max_New\\4_sem\\ProgrammingTechnologies\\New_Repo\\Programming-Technologies-Lab\\ShopSystem\\",
-  "Documents": [],
-=======
   "WorkspaceRootPath": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\presentation\\models\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\presentation\\models\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shoptest\\helpers\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|solutionrelative:shoptest\\helpers\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\models\\catalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\models\\catalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\presentation\\viewmodels\\shopviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\presentation\\viewmodels\\shopviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\logic\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\logic\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\linqsql\\sqldatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\linqsql\\sqldatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\interfaces\\idatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,15 +31,54 @@
       "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\context\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\InMemoryRepositoryTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShopTest\\InMemoryRepositoryTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shoptest\\viewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|solutionrelative:shoptest\\viewmodeltests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Logic\\Services\\DataService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ShopSystem\\Logic\\Services\\DataService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shoptest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|solutionrelative:shoptest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shoptest\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|solutionrelative:shoptest\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shoptest\\logic\\shopservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A19A1-3079-4501-BB7A-9097094AC8B0}|ShopTest\\ShopTest.csproj|solutionrelative:shoptest\\logic\\shopservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\presentation\\models\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\presentation\\models\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\presentation\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\presentation\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\logic\\interfaces\\ishopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\logic\\interfaces\\ishopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\models\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|c:\\users\\mateusz\\desktop\\_programing_technologies\\repository\\programming-technologies-lab\\shopsystem\\shopsystem\\data\\models\\catalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57553A93-B7D8-4461-9B3F-B15A543BFED2}|ShopSystem\\ShopSystem.csproj|solutionrelative:shopsystem\\data\\models\\catalogitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
->>>>>>> 421f5e9 (db2)
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -59,148 +86,254 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-=======
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Presentation\\Models\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\Presentation\\Models\\ViewModelBase.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Presentation\\Models\\ViewModelBase.cs",
-              "RelativeToolTip": "ShopSystem\\Presentation\\Models\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:59:04.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SqlDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\SqlDbContext.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\Data\\SqlDbContext.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\SqlDbContext.cs",
-              "RelativeToolTip": "ShopSystem\\Data\\SqlDbContext.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T19:58:07.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InMemoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\Helpers\\InMemoryRepository.cs",
-              "RelativeDocumentMoniker": "ShopTest\\Helpers\\InMemoryRepository.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\Helpers\\InMemoryRepository.cs",
-              "RelativeToolTip": "ShopTest\\Helpers\\InMemoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:32:56.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InMemoryRepositoryTest.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\InMemoryRepositoryTest.cs",
-              "RelativeDocumentMoniker": "ShopTest\\InMemoryRepositoryTest.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\InMemoryRepositoryTest.cs",
-              "RelativeToolTip": "ShopTest\\InMemoryRepositoryTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:32:40.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DataService.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Logic\\Services\\DataService.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\Logic\\Services\\DataService.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Logic\\Services\\DataService.cs",
-              "RelativeToolTip": "ShopSystem\\Logic\\Services\\DataService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:30:56.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\Data\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\User.cs",
-              "RelativeToolTip": "ShopSystem\\Data\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:30:22.667Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "State.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\State.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\Data\\Models\\State.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\State.cs",
-              "RelativeToolTip": "ShopSystem\\Data\\Models\\State.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:30:10.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\Data\\Models\\Event.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\Event.cs",
-              "RelativeToolTip": "ShopSystem\\Data\\Models\\Event.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:29:20.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CatalogItem.cs",
-              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\CatalogItem.cs",
-              "RelativeDocumentMoniker": "ShopSystem\\Data\\Models\\CatalogItem.cs",
-              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\CatalogItem.cs",
-              "RelativeToolTip": "ShopSystem\\Data\\Models\\CatalogItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:29:14.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "IDataRepository.cs",
               "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Interfaces\\IDataRepository.cs",
               "RelativeDocumentMoniker": "ShopSystem\\Data\\Interfaces\\IDataRepository.cs",
               "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Interfaces\\IDataRepository.cs",
               "RelativeToolTip": "ShopSystem\\Data\\Interfaces\\IDataRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA2wCQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:28:49.831Z"
+              "WhenOpened": "2025-06-03T08:50:42.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "SqlDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\LinqSql\\SqlDataRepository.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Data\\LinqSql\\SqlDataRepository.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\LinqSql\\SqlDataRepository.cs",
+              "RelativeToolTip": "ShopSystem\\Data\\LinqSql\\SqlDataRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA2wD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:48:31.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopService.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Logic\\ShopService.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Logic\\ShopService.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Logic\\ShopService.cs",
+              "RelativeToolTip": "ShopSystem\\Logic\\ShopService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:52:10.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Presentation\\ViewModels\\ShopViewModel.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Presentation\\ViewModels\\ShopViewModel.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Presentation\\ViewModels\\ShopViewModel.cs",
+              "RelativeToolTip": "ShopSystem\\Presentation\\ViewModels\\ShopViewModel.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwEcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:52:47.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Data\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\Event.cs",
+              "RelativeToolTip": "ShopSystem\\Data\\Models\\Event.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:51:17.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InMemoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\Helpers\\InMemoryRepository.cs",
+              "RelativeDocumentMoniker": "ShopTest\\Helpers\\InMemoryRepository.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\Helpers\\InMemoryRepository.cs",
+              "RelativeToolTip": "ShopTest\\Helpers\\InMemoryRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA8wEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:53:13.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Context\\DataContext.cs",
               "RelativeDocumentMoniker": "ShopSystem\\Data\\Context\\DataContext.cs",
               "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Context\\DataContext.cs",
               "RelativeToolTip": "ShopSystem\\Data\\Context\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA2wB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:28:34.548Z"
->>>>>>> 421f5e9 (db2)
+              "WhenOpened": "2025-06-03T08:50:32.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewModelTests.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\ViewModelTests.cs",
+              "RelativeDocumentMoniker": "ShopTest\\ViewModelTests.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\ViewModelTests.cs",
+              "RelativeToolTip": "ShopTest\\ViewModelTests.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:53:50.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\Program.cs",
+              "RelativeDocumentMoniker": "ShopTest\\Program.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\Program.cs",
+              "RelativeToolTip": "ShopTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:53:42.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "ShopTest\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\MSTestSettings.cs",
+              "RelativeToolTip": "ShopTest\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:53:23.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ShopServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\Logic\\ShopServiceTests.cs",
+              "RelativeDocumentMoniker": "ShopTest\\Logic\\ShopServiceTests.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopTest\\Logic\\ShopServiceTests.cs",
+              "RelativeToolTip": "ShopTest\\Logic\\ShopServiceTests.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:53:26.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Program.cs",
+              "RelativeToolTip": "ShopSystem\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwDEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:53:02.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Presentation\\Models\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Presentation\\Models\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Presentation\\Models\\ViewModelBase.cs",
+              "RelativeToolTip": "ShopSystem\\Presentation\\Models\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:52:36.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Presentation\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Presentation\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Presentation\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "ShopSystem\\Presentation\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA/wBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:52:27.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IShopService.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Logic\\Interfaces\\IShopService.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Logic\\Interfaces\\IShopService.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Logic\\Interfaces\\IShopService.cs",
+              "RelativeToolTip": "ShopSystem\\Logic\\Interfaces\\IShopService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:52:03.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\User.cs",
+              "RelativeToolTip": "ShopSystem\\Data\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:51:38.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\State.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Data\\Models\\State.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\State.cs",
+              "RelativeToolTip": "ShopSystem\\Data\\Models\\State.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:51:25.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CatalogItem.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\CatalogItem.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Data\\Models\\CatalogItem.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\Models\\CatalogItem.cs",
+              "RelativeToolTip": "ShopSystem\\Data\\Models\\CatalogItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:51:08.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SqlDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\SqlDbContext.cs",
+              "RelativeDocumentMoniker": "ShopSystem\\Data\\SqlDbContext.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\_PROGRAMING_TECHNOLOGIES\\repository\\Programming-Technologies-Lab\\ShopSystem\\ShopSystem\\Data\\SqlDbContext.cs",
+              "RelativeToolTip": "ShopSystem\\Data\\SqlDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T08:20:51.969Z",
+              "EditorCaption": ""
             }
           ]
         }

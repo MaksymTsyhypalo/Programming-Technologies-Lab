@@ -1,54 +1,65 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿// ShopSystem/Data/InMemory/InMemoryRepository.cs
 using ShopSystem.Data.Interfaces;
 using ShopSystem.Data.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
-namespace ShopSystem.Tests.Helpers
+namespace ShopSystem.Data.InMemory
 {
     public class InMemoryRepository : IDataRepository
     {
-        public List<User> Users { get; set; } = new();
-        public List<Event> Events { get; set; } = new();
-        public List<State> States { get; set; } = new();
-        public List<CatalogItem> Catalog { get; set; } = new();
+        private readonly List<User> _users = new();
+        private readonly List<Event> _events = new();
+        private readonly List<State> _states = new();
+        private readonly List<CatalogItem> _catalog = new();
 
-        // User operations
-        public IEnumerable<User> GetUsers() => Users;
-        public void AddUser(User user) => Users.Add(user);
+        // Users
+        public IQueryable<User> GetUsers() => _users.AsQueryable();
+        public IQueryable<User> GetEmployees() =>
+            _users.Where(u => u is Employee).AsQueryable();
+        public IQueryable<User> GetCustomers() =>
+            _users.Where(u => u is Customer).AsQueryable();
+        public void AddUser(User user) => _users.Add(user);
         public void UpdateUser(User user)
         {
-            var existing = Users.FirstOrDefault(u => u.Id == user.Id);
-            if (existing != null)
-            {
-                Users.Remove(existing);
-                Users.Add(user);
-            }
+            var index = _users.FindIndex(u => u.Id == user.Id);
+            if (index >= 0) _users[index] = user;
         }
-        public void DeleteUser(int userId) => Users.RemoveAll(u => u.Id == userId);
+        public void DeleteUser(int userId) =>
+            _users.RemoveAll(u => u.Id == userId);
 
-        // Event operations
-        public IEnumerable<Event> GetEvents() => Events;
-        public void RegisterEvent(Event e) => Events.Add(e);
-        public void RemoveEvent(int eventId) => Events.RemoveAll(e => e.Id == eventId);
+        // Events
+        public IQueryable<Event> GetEvents() => _events.AsQueryable();
+        public IQueryable<Event> GetRecentEvents(int days = 7) =>
+            _events.Where(e => e.Timestamp >= DateTime.Now.AddDays(-days))
+                   .OrderByDescending(e => e.Timestamp)
+                   .AsQueryable();
+        public void RegisterEvent(Event e) => _events.Add(e);
+        public void RemoveEvent(int eventId) =>
+            _events.RemoveAll(e => e.Id == eventId);
 
-        // State operations
-        public IEnumerable<State> GetStates() => States;
-        public State GetCurrentState() => States.OrderByDescending(s => s.Id).FirstOrDefault();
+        // States
+        public IQueryable<State> GetStates() => _states.AsQueryable();
+        public State GetCurrentState() => _states.OrderByDescending(s => s.Id).FirstOrDefault();
         public void UpdateState(State state)
         {
-            States.RemoveAll(s => s.Id == state.Id);
-            States.Add(state);
+            var index = _states.FindIndex(s => s.Id == state.Id);
+            if (index >= 0) _states[index] = state;
         }
 
-        // Catalog operations
-        public CatalogItem GetCatalogItem(int id) => Catalog.FirstOrDefault(c => c.Id == id);
-        public IEnumerable<CatalogItem> GetCatalog() => Catalog;
-        public void AddCatalogItem(CatalogItem item) => Catalog.Add(item);
+        // Catalog
+        public IQueryable<CatalogItem> GetCatalog() => _catalog.AsQueryable();
+        public IQueryable<CatalogItem> GetAffordableItems(decimal maxPrice) =>
+            _catalog.Where(c => c.Price <= maxPrice).OrderBy(c => c.Price).AsQueryable();
+        public CatalogItem GetCatalogItem(int id) => _catalog.FirstOrDefault(c => c.Id == id);
+        public void AddCatalogItem(CatalogItem item) => _catalog.Add(item);
         public void UpdateCatalogItem(CatalogItem item)
         {
-            Catalog.RemoveAll(c => c.Id == item.Id);
-            Catalog.Add(item);
+            var index = _catalog.FindIndex(c => c.Id == item.Id);
+            if (index >= 0) _catalog[index] = item;
         }
-        public void RemoveCatalogItem(int itemId) => Catalog.RemoveAll(c => c.Id == itemId);
+        public void RemoveCatalogItem(int itemId) =>
+            _catalog.RemoveAll(c => c.Id == itemId);
     }
 }

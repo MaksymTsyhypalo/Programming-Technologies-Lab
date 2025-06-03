@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿// ShopSystem/Data/LinqSql/SqlDataRepository.cs
+using Microsoft.EntityFrameworkCore;
 using ShopSystem.Data.Context;
 using ShopSystem.Data.Interfaces;
 using ShopSystem.Data.Models;
-using System.Collections.Generic;
+using System;
 using System.Linq;
 
 namespace ShopSystem.Data.LinqSql
@@ -16,94 +17,46 @@ namespace ShopSystem.Data.LinqSql
             _context = context;
         }
 
-        // User operations
-        public IEnumerable<User> GetUsers() => _context.Users.ToList();
+        // Users
+        public IQueryable<User> GetUsers() => _context.Users.AsQueryable();
 
-        public void AddUser(User user)
-        {
-            _context.Users.Add(user);
-            _context.SaveChanges();
-        }
+        public IQueryable<User> GetEmployees() =>
+            _context.Users.Where(u => EF.Property<string>(u, "Discriminator") == "Employee");
 
-        public void UpdateUser(User user)
-        {
-            _context.Users.Update(user);
-            _context.SaveChanges();
-        }
+        public IQueryable<User> GetCustomers() =>
+            _context.Users.Where(u => EF.Property<string>(u, "Discriminator") == "Customer");
 
-        public void DeleteUser(int userId)
-        {
-            var user = _context.Users.Find(userId);
-            if (user != null)
-            {
-                _context.Users.Remove(user);
-                _context.SaveChanges();
-            }
-        }
+        public void AddUser(User user) => _context.Users.Add(user);
+        public void UpdateUser(User user) => _context.Users.Update(user);
+        public void DeleteUser(int userId) => _context.Users.Remove(_context.Users.Find(userId));
 
-        // Event operations
-        public IEnumerable<Event> GetEvents() => _context.Events
-            .Include(e => e.TriggeredBy)
-            .ToList();
+        // Events
+        public IQueryable<Event> GetEvents() => _context.Events.Include(e => e.TriggeredBy);
 
-        public void RegisterEvent(Event e)
-        {
-            _context.Events.Add(e);
-            _context.SaveChanges();
-        }
+        public IQueryable<Event> GetRecentEvents(int days = 7) =>
+            GetEvents().Where(e => e.Timestamp >= DateTime.Now.AddDays(-days))
+                      .OrderByDescending(e => e.Timestamp);
 
-        public void RemoveEvent(int eventId)
-        {
-            var eventToRemove = _context.Events.Find(eventId);
-            if (eventToRemove != null)
-            {
-                _context.Events.Remove(eventToRemove);
-                _context.SaveChanges();
-            }
-        }
+        public void RegisterEvent(Event e) => _context.Events.Add(e);
+        public void RemoveEvent(int eventId) => _context.Events.Remove(_context.Events.Find(eventId));
 
-        // State operations
-        public IEnumerable<State> GetStates() => _context.States
-            .Include(s => s.Inventory)
-            .ToList();
+        // States
+        public IQueryable<State> GetStates() => _context.States.Include(s => s.Inventory);
+        public State GetCurrentState() => GetStates().OrderByDescending(s => s.Id).FirstOrDefault();
+        public void UpdateState(State state) => _context.States.Update(state);
 
-        public State GetCurrentState() => _context.States
-            .Include(s => s.Inventory)
-            .OrderByDescending(s => s.Id)
-            .FirstOrDefault();
+        // Catalog
+        public IQueryable<CatalogItem> GetCatalog() => _context.Catalog.AsQueryable();
 
-        public void UpdateState(State state)
-        {
-            _context.States.Update(state);
-            _context.SaveChanges();
-        }
+        public IQueryable<CatalogItem> GetAffordableItems(decimal maxPrice) =>
+            _context.Catalog.Where(c => c.Price <= maxPrice)
+                           .OrderBy(c => c.Price);
 
-        // Catalog operations
-        public CatalogItem GetCatalogItem(int id) => _context.Catalog
-            .FirstOrDefault(c => c.Id == id);
+        public CatalogItem GetCatalogItem(int id) => _context.Catalog.Find(id);
+        public void AddCatalogItem(CatalogItem item) => _context.Catalog.Add(item);
+        public void UpdateCatalogItem(CatalogItem item) => _context.Catalog.Update(item);
+        public void RemoveCatalogItem(int itemId) => _context.Catalog.Remove(_context.Catalog.Find(itemId));
 
-        public IEnumerable<CatalogItem> GetCatalog() => _context.Catalog.ToList();
-
-        public void AddCatalogItem(CatalogItem item)
-        {
-            _context.Catalog.Add(item);
-            _context.SaveChanges();
-        }
-
-        public void UpdateCatalogItem(CatalogItem item)
-        {
-            _context.Catalog.Update(item);
-            _context.SaveChanges();
-        }
-
-        public void RemoveCatalogItem(int itemId)
-        {
-            var item = _context.Catalog.Find(itemId);
-            if (item != null)
-            {
-                _context.Catalog.Remove(item);
-                _context.SaveChanges();
-            }
-        }
+        public void SaveChanges() => _context.SaveChanges();
     }
 }
