@@ -10,6 +10,7 @@ using ShopSystem.Presentation.ViewModels;
 using System;
 using System.Linq;
 
+
 class Program
 {
     static void Main(string[] args)
